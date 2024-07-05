@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mecha Champions Arena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Super Mecha Champions Logo">
+            </div>
+            <h1>Super Mecha Champions Arena</h1>
+            <button id="signup-btn">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Chance to participate in the ultimate SMC competition for a chance to win an all-paid trip to Ireland.</h2>
+        </div>
+    </section>
+
+    <section class="transition">
+        <video src="videos/transition1.mp4" controls></video>
+    </section>
+
+    <section class="competition-details">
+        <div class="details-text">
+            <h2>Join a 100-player battle royale where the winner will get an all-expenses-paid trip to Ireland.</h2>
+            <p>Engage in thrilling combat, strategize with your team, and emerge as the ultimate champion. This is your chance to prove your skills and earn a dream vacation. Don't miss out on this epic opportunity!</p>
+        </div>
+    </section>
+
+    <section class="transition">
+        <video src="videos/transition2.mp4" controls></video>
+    </section>
+
+    <section class="carousel">
+        <div class="carousel-container">
+            <button class="arrow" id="prev">&lt;</button>
+            <div class="carousel-images">
+                <img src="images/ireland1.jpg" alt="Ireland Image 1">
+                <img src="images/ireland2.jpg" alt="Ireland Image 2">
+                <img src="images/ireland3.jpg" alt="Ireland Image 3">
+                <img src="images/ireland4.jpg" alt="Ireland Image 4">
+                <img src="images/ireland5.jpg" alt="Ireland Image 5">
+                <img src="images/ireland6.jpg" alt="Ireland Image 6">
+            </div>
+            <button class="arrow" id="next">&gt;</button>
+        </div>
+    </section>
+
+    <section class="join-now">
+        <div class="join-now-text">
+            <h2>Join Now</h2>
+            <button id="join-now-btn" class="purple-box">Sign Up</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Super Mecha Champions Arena. All terms and conditions apply.</p>
+    </footer>
+
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="mailto:kerrarhayder64@outlook.com" method="post" enctype="text/plain">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

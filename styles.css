@@ -1,0 +1,207 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
+header button {
+    background: #ffcc00;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background: #e6b800;
+}
+
+.intro, .competition-details, .carousel, .join-now {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro-text, .details-text, .join-now-text {
+    background: rgba(55, 55, 55, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.intro-text h2, .details-text h2, .details-text p, .join-now-text h2 {
+    margin: 20px 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-images {
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+}
+
+.carousel-images img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.arrow {
+    background: rgba(55, 55, 55, 0.9);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content label {
+    margin-bottom: 10px;
+}
+
+.modal-content input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.modal-content button {
+    padding: 10px;
+    font-size: 1em;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-content button:hover {
+    background: #e6b800;
+}
+
+body {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.transition video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.purple-box {
+    background: #800080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.purple-box:hover {
+    background: #660066;
+}
