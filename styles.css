@@ -50,7 +50,7 @@ header button:hover {
     background: #e6b800;
 }
 
-.intro, .competition-details, .carousel, .join-now {
+.intro, .competition-details, .carousel, .join-now, .congrats {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -60,14 +60,14 @@ header button:hover {
     box-sizing: border-box;
 }
 
-.intro-text, .details-text, .join-now-text {
+.intro-text, .details-text, .join-now-text, .congrats-text {
     background: rgba(55, 55, 55, 0.9);
     padding: 20px;
     border-radius: 10px;
     color: white;
 }
 
-.intro-text h2, .details-text h2, .details-text p, .join-now-text h2 {
+.intro-text h2, .details-text h2, .details-text p, .join-now-text h2, .congrats-text h2 {
     margin: 20px 0;
 }
 
@@ -204,4 +204,11 @@ body {
 
 .purple-box:hover {
     background: #660066;
+}
+
+.congrats img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
